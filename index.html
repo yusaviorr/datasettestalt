@@ -9,7 +9,7 @@
   <div id="graph"></div>
 
   <script>
-    fetch('data2.json').then(res => res.json()).then(data => {
+    fetch('baza.json').then(res => res.json()).then(data => {
       const Graph = ForceGraph()
       (document.getElementById('graph'))
         .graphData(data)
